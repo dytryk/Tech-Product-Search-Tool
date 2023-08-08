@@ -1,0 +1,1014 @@
+{% extends "base_home.html" %} {% block title %}Home{% endblock %} {% block content
+    %}
+    <form method="POST">
+      <h10> <br> </h10>
+      <h3 align = "center">Search for a tech product to find the best deals!</h3>
+      <br>
+      <div class="form-group input-group">
+          <label for="product" class="sr-only"></label>
+          <input
+              type="text"
+              class="form-control"
+              id="product"
+              name="product"
+              placeholder="Enter product name:"
+          />
+          <div class="input-group-append">
+              <button type="submit" class="btn btn-primary">Search</button>
+          </div>
+      </div>
+    </form>
+      <head>
+      <title>Results:</title>
+      <style text-align: left>
+          .scroll-box {
+              border: 1px solid #ccc;
+              width:auto;
+              max-height: 700px;
+              overflow-y: scroll;
+              padding: 10px;
+          }
+    
+          a {
+              color:#0004ff;
+              text-decoration: none;
+          }
+    
+          a:hover {
+              text-decoration: underline;
+          }
+        </style>
+      </head>
+    <body>
+      <div class="scroll-box"><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: left;">
+      <th style="min-width: 100px;">product name:</th>
+      <th style="min-width: 100px;">price:</th>
+      <th style="min-width: 100px;">link:</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GIGABYTE B550 GAMING X V2 AM4 AMD B550 SATA 6Gb/s USB 3.0 ATX AMD Motherboard</td>
+      <td>99</td>
+      <td><a href="https://www.newegg.com/gigabyte-b550-gaming-x-v2/p/N82E16813145255" target="_blank">https://www.newegg.com/gigabyte-b550-gaming-x-v2/p/N82E16813145255</a></td>
+    </tr>
+    <tr>
+      <td>GIGABYTE B550 GAMING X V2 AM4 AMD B550 SATA 6Gb/s USB 3.0 ATX AMD Motherboard</td>
+      <td>99</td>
+      <td><a href="https://www.newegg.com/gigabyte-b550-gaming-x-v2/p/N82E16813145255" target="_blank">https://www.newegg.com/gigabyte-b550-gaming-x-v2/p/N82E16813145255</a></td>
+    </tr>
+    <tr>
+      <td>GIGABYTE B550 AORUS ELITE AX V2 AM4 AMD B550 ATX Motherboard with Dual M.2, SATA 6Gb/s, USB 3.2 Gen 2, 2.4/5 GHz Dual-Band, 2.5 GbE LAN, PCIe 4.0</td>
+      <td>159</td>
+      <td><a href="https://www.newegg.com/gigabyte-b550-aorus-elite-ax-v2/p/N82E16813145248" target="_blank">https://www.newegg.com/gigabyte-b550-aorus-elite-ax-v2/p/N82E16813145248</a></td>
+    </tr>
+    <tr>
+      <td>GIGABYTE B550 AORUS ELITE AX V2 AM4 AMD B550 ATX Motherboard with Dual M.2, SATA 6Gb/s, USB 3.2 Gen 2, 2.4/5 GHz Dual-Band, 2.5 GbE LAN, PCIe 4.0</td>
+      <td>159</td>
+      <td><a href="https://www.newegg.com/gigabyte-b550-aorus-elite-ax-v2/p/N82E16813145248" target="_blank">https://www.newegg.com/gigabyte-b550-aorus-elite-ax-v2/p/N82E16813145248</a></td>
+    </tr>
+    <tr>
+      <td>ASUS TUF Gaming 1000W Gold (1000 Watt, ATX 3.0 Compatible Fully Modular Power Supply, 80+ Gold Certified, Military-grade Components, Dual Ball Bearing, Axial-tech Fan, PCB Coating)</td>
+      <td>161</td>
+      <td><a href="https://www.newegg.com/asus-tuf-gaming-1000g-1000-w/p/N82E16817320029" target="_blank">https://www.newegg.com/asus-tuf-gaming-1000g-1000-w/p/N82E16817320029</a></td>
+    </tr>
+    <tr>
+      <td>ASUS TUF Gaming 1000W Gold (1000 Watt, ATX 3.0 Compatible Fully Modular Power Supply, 80+ Gold Certified, Military-grade Components, Dual Ball Bearing, Axial-tech Fan, PCB Coating)</td>
+      <td>161</td>
+      <td><a href="https://www.newegg.com/asus-tuf-gaming-1000g-1000-w/p/N82E16817320029" target="_blank">https://www.newegg.com/asus-tuf-gaming-1000g-1000-w/p/N82E16817320029</a></td>
+    </tr>
+    <tr>
+      <td>MSI MAG Z690 TOMAHAWK WIFI DDR4 LGA 1700 ATX Intel Motherboard</td>
+      <td>272</td>
+      <td><a href="https://www.newegg.com/p/N82E16813144487" target="_blank">https://www.newegg.com/p/N82E16813144487</a></td>
+    </tr>
+    <tr>
+      <td>MSI MAG Z690 TOMAHAWK WIFI DDR4 LGA 1700 ATX Intel Motherboard</td>
+      <td>272</td>
+      <td><a href="https://www.newegg.com/p/N82E16813144487" target="_blank">https://www.newegg.com/p/N82E16813144487</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 4060 8GB GDDR6 PCI Express 4.0 x8 ATX Video Card RTX 4060 VENTUS 2X BLACK 8G OC</td>
+      <td>299</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4060-rtx-4060-ventus-2x-black-8g-oc/p/N82E16814137804" target="_blank">https://www.newegg.com/msi-geforce-rtx-4060-rtx-4060-ventus-2x-black-8g-oc/p/N82E16814137804</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 4060 8GB GDDR6 PCI Express 4.0 x8 ATX Video Card RTX 4060 VENTUS 2X BLACK 8G OC</td>
+      <td>299</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4060-rtx-4060-ventus-2x-black-8g-oc/p/N82E16814137804" target="_blank">https://www.newegg.com/msi-geforce-rtx-4060-rtx-4060-ventus-2x-black-8g-oc/p/N82E16814137804</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 3060 12GB GDDR6 PCI Express 4.0 Video Card RTX 3060 Ventus 3X 12G OC</td>
+      <td>324</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3060-rtx-3060-ventus-3x-12g-oc/p/N82E16814137631" target="_blank">https://www.newegg.com/msi-geforce-rtx-3060-rtx-3060-ventus-3x-12g-oc/p/N82E16814137631</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 3060 12GB GDDR6 PCI Express 4.0 Video Card RTX 3060 Ventus 3X 12G OC</td>
+      <td>324</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3060-rtx-3060-ventus-3x-12g-oc/p/N82E16814137631" target="_blank">https://www.newegg.com/msi-geforce-rtx-3060-rtx-3060-ventus-3x-12g-oc/p/N82E16814137631</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 3060 12GB GDDR6 PCI Express 4.0 Video Card RTX 3060 Ventus 3X 12G OC</td>
+      <td>324</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3060-rtx-3060-ventus-3x-12g-oc/p/N82E16814137631" target="_blank">https://www.newegg.com/msi-geforce-rtx-3060-rtx-3060-ventus-3x-12g-oc/p/N82E16814137631</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 3060 12GB GDDR6 PCI Express 4.0 Video Card RTX 3060 Ventus 3X 12G OC</td>
+      <td>324</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3060-rtx-3060-ventus-3x-12g-oc/p/N82E16814137631" target="_blank">https://www.newegg.com/msi-geforce-rtx-3060-rtx-3060-ventus-3x-12g-oc/p/N82E16814137631</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 3060 12GB GDDR6 PCI Express 4.0 Video Card RTX 3060 Ventus 3X 12G OC</td>
+      <td>324</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3060-rtx-3060-ventus-3x-12g-oc/p/N82E16814137631" target="_blank">https://www.newegg.com/msi-geforce-rtx-3060-rtx-3060-ventus-3x-12g-oc/p/N82E16814137631</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 3060 12GB GDDR6 PCI Express 4.0 Video Card RTX 3060 Ventus 3X 12G OC</td>
+      <td>324</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3060-rtx-3060-ventus-3x-12g-oc/p/N82E16814137631" target="_blank">https://www.newegg.com/msi-geforce-rtx-3060-rtx-3060-ventus-3x-12g-oc/p/N82E16814137631</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 3060 12GB GDDR6 PCI Express 4.0 Video Card RTX 3060 Ventus 2X 12G OC</td>
+      <td>338</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3060-rtx-3060-ventus-2x-12g-oc/p/N82E16814137632" target="_blank">https://www.newegg.com/msi-geforce-rtx-3060-rtx-3060-ventus-2x-12g-oc/p/N82E16814137632</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 3060 12GB GDDR6 PCI Express 4.0 Video Card RTX 3060 Ventus 2X 12G OC</td>
+      <td>338</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3060-rtx-3060-ventus-2x-12g-oc/p/N82E16814137632" target="_blank">https://www.newegg.com/msi-geforce-rtx-3060-rtx-3060-ventus-2x-12g-oc/p/N82E16814137632</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 3060 12GB GDDR6 PCI Express 4.0 Video Card RTX 3060 Ventus 2X 12G OC</td>
+      <td>338</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3060-rtx-3060-ventus-2x-12g-oc/p/N82E16814137632" target="_blank">https://www.newegg.com/msi-geforce-rtx-3060-rtx-3060-ventus-2x-12g-oc/p/N82E16814137632</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 3060 12GB GDDR6 PCI Express 4.0 Video Card RTX 3060 Ventus 2X 12G OC</td>
+      <td>338</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3060-rtx-3060-ventus-2x-12g-oc/p/N82E16814137632" target="_blank">https://www.newegg.com/msi-geforce-rtx-3060-rtx-3060-ventus-2x-12g-oc/p/N82E16814137632</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 3060 12GB GDDR6 PCI Express 4.0 Video Card RTX 3060 Ventus 2X 12G OC</td>
+      <td>338</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3060-rtx-3060-ventus-2x-12g-oc/p/N82E16814137632" target="_blank">https://www.newegg.com/msi-geforce-rtx-3060-rtx-3060-ventus-2x-12g-oc/p/N82E16814137632</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 3060 12GB GDDR6 PCI Express 4.0 Video Card RTX 3060 Ventus 2X 12G OC</td>
+      <td>338</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3060-rtx-3060-ventus-2x-12g-oc/p/N82E16814137632" target="_blank">https://www.newegg.com/msi-geforce-rtx-3060-rtx-3060-ventus-2x-12g-oc/p/N82E16814137632</a></td>
+    </tr>
+    <tr>
+      <td>ZOTAC GAMING GeForce RTX 3060 Ti Twin Edge OC LHR 8GB GDDR6 256-bit 14 Gbps PCIE 4.0 Gaming Graphics Card, IceStorm 2.0 Advanced Cooling, Active Fan Control, FREEZE Fan Stop ZT-A30610H-10MLHR</td>
+      <td>349</td>
+      <td><a href="https://www.newegg.com/zotac-geforce-rtx-3060-ti-zt-a30610h-10mlhr/p/N82E16814500518" target="_blank">https://www.newegg.com/zotac-geforce-rtx-3060-ti-zt-a30610h-10mlhr/p/N82E16814500518</a></td>
+    </tr>
+    <tr>
+      <td>ZOTAC GAMING GeForce RTX 3060 Ti Twin Edge OC LHR 8GB GDDR6 256-bit 14 Gbps PCIE 4.0 Gaming Graphics Card, IceStorm 2.0 Advanced Cooling, Active Fan Control, FREEZE Fan Stop ZT-A30610H-10MLHR</td>
+      <td>349</td>
+      <td><a href="https://www.newegg.com/zotac-geforce-rtx-3060-ti-zt-a30610h-10mlhr/p/N82E16814500518" target="_blank">https://www.newegg.com/zotac-geforce-rtx-3060-ti-zt-a30610h-10mlhr/p/N82E16814500518</a></td>
+    </tr>
+    <tr>
+      <td>ZOTAC GAMING GeForce RTX 3060 Ti Twin Edge OC LHR 8GB GDDR6 256-bit 14 Gbps PCIE 4.0 Gaming Graphics Card, IceStorm 2.0 Advanced Cooling, Active Fan Control, FREEZE Fan Stop ZT-A30610H-10MLHR</td>
+      <td>349</td>
+      <td><a href="https://www.newegg.com/zotac-geforce-rtx-3060-ti-zt-a30610h-10mlhr/p/N82E16814500518" target="_blank">https://www.newegg.com/zotac-geforce-rtx-3060-ti-zt-a30610h-10mlhr/p/N82E16814500518</a></td>
+    </tr>
+    <tr>
+      <td>ZOTAC GAMING GeForce RTX 3060 Ti Twin Edge OC LHR 8GB GDDR6 256-bit 14 Gbps PCIE 4.0 Gaming Graphics Card, IceStorm 2.0 Advanced Cooling, Active Fan Control, FREEZE Fan Stop ZT-A30610H-10MLHR</td>
+      <td>349</td>
+      <td><a href="https://www.newegg.com/zotac-geforce-rtx-3060-ti-zt-a30610h-10mlhr/p/N82E16814500518" target="_blank">https://www.newegg.com/zotac-geforce-rtx-3060-ti-zt-a30610h-10mlhr/p/N82E16814500518</a></td>
+    </tr>
+    <tr>
+      <td>ZOTAC GAMING GeForce RTX 3060 Ti Twin Edge OC LHR 8GB GDDR6 256-bit 14 Gbps PCIE 4.0 Gaming Graphics Card, IceStorm 2.0 Advanced Cooling, Active Fan Control, FREEZE Fan Stop ZT-A30610H-10MLHR</td>
+      <td>349</td>
+      <td><a href="https://www.newegg.com/zotac-geforce-rtx-3060-ti-zt-a30610h-10mlhr/p/N82E16814500518" target="_blank">https://www.newegg.com/zotac-geforce-rtx-3060-ti-zt-a30610h-10mlhr/p/N82E16814500518</a></td>
+    </tr>
+    <tr>
+      <td>ZOTAC GAMING GeForce RTX 3060 Ti Twin Edge OC LHR 8GB GDDR6 256-bit 14 Gbps PCIE 4.0 Gaming Graphics Card, IceStorm 2.0 Advanced Cooling, Active Fan Control, FREEZE Fan Stop ZT-A30610H-10MLHR</td>
+      <td>349</td>
+      <td><a href="https://www.newegg.com/zotac-geforce-rtx-3060-ti-zt-a30610h-10mlhr/p/N82E16814500518" target="_blank">https://www.newegg.com/zotac-geforce-rtx-3060-ti-zt-a30610h-10mlhr/p/N82E16814500518</a></td>
+    </tr>
+    <tr>
+      <td>MSI Mech Radeon RX 6750 XT 12GB GDDR6 PCI Express 4.0 Video Card RX 6750 XT MECH 2X 12G OC</td>
+      <td>369</td>
+      <td><a href="https://www.newegg.com/msi-rx-6750-xt-mech-2x-12g-oc/p/N82E16814137735" target="_blank">https://www.newegg.com/msi-rx-6750-xt-mech-2x-12g-oc/p/N82E16814137735</a></td>
+    </tr>
+    <tr>
+      <td>MSI Mech Radeon RX 6750 XT 12GB GDDR6 PCI Express 4.0 Video Card RX 6750 XT MECH 2X 12G OC</td>
+      <td>369</td>
+      <td><a href="https://www.newegg.com/msi-rx-6750-xt-mech-2x-12g-oc/p/N82E16814137735" target="_blank">https://www.newegg.com/msi-rx-6750-xt-mech-2x-12g-oc/p/N82E16814137735</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 3070 8GB GDDR6 PCI Express 4.0 Video Card RTX 3070 Ventus 2X 8G OC LHR</td>
+      <td>447</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3070-rtx-3070-ventus-2x-8g-oc-lhr/p/N82E16814137671" target="_blank">https://www.newegg.com/msi-geforce-rtx-3070-rtx-3070-ventus-2x-8g-oc-lhr/p/N82E16814137671</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 3070 8GB GDDR6 PCI Express 4.0 Video Card RTX 3070 Ventus 2X 8G OC LHR</td>
+      <td>447</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3070-rtx-3070-ventus-2x-8g-oc-lhr/p/N82E16814137671" target="_blank">https://www.newegg.com/msi-geforce-rtx-3070-rtx-3070-ventus-2x-8g-oc-lhr/p/N82E16814137671</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 3070 8GB GDDR6 PCI Express 4.0 Video Card RTX 3070 Ventus 2X 8G OC LHR</td>
+      <td>447</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3070-rtx-3070-ventus-2x-8g-oc-lhr/p/N82E16814137671" target="_blank">https://www.newegg.com/msi-geforce-rtx-3070-rtx-3070-ventus-2x-8g-oc-lhr/p/N82E16814137671</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 3070 8GB GDDR6 PCI Express 4.0 Video Card RTX 3070 Ventus 2X 8G OC LHR</td>
+      <td>447</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3070-rtx-3070-ventus-2x-8g-oc-lhr/p/N82E16814137671" target="_blank">https://www.newegg.com/msi-geforce-rtx-3070-rtx-3070-ventus-2x-8g-oc-lhr/p/N82E16814137671</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 3070 8GB GDDR6 PCI Express 4.0 Video Card RTX 3070 Ventus 2X 8G OC LHR</td>
+      <td>447</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3070-rtx-3070-ventus-2x-8g-oc-lhr/p/N82E16814137671" target="_blank">https://www.newegg.com/msi-geforce-rtx-3070-rtx-3070-ventus-2x-8g-oc-lhr/p/N82E16814137671</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 3070 8GB GDDR6 PCI Express 4.0 Video Card RTX 3070 Ventus 2X 8G OC LHR</td>
+      <td>447</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3070-rtx-3070-ventus-2x-8g-oc-lhr/p/N82E16814137671" target="_blank">https://www.newegg.com/msi-geforce-rtx-3070-rtx-3070-ventus-2x-8g-oc-lhr/p/N82E16814137671</a></td>
+    </tr>
+    <tr>
+      <td>Refurbished GIGABYTE Gaming GeForce RTX 3080 10GB GDDR6X PCI Express 4.0 ATX Video Card GV-N3080GAMING OC-10GD G20-R</td>
+      <td>450</td>
+      <td><a href="https://www.newegg.com/gigabyte-geforce-rtx-3080-gv-n3080gaming-oc-10gd-g20-r/p/N82E16814932574" target="_blank">https://www.newegg.com/gigabyte-geforce-rtx-3080-gv-n3080gaming-oc-10gd-g20-r/p/N82E16814932574</a></td>
+    </tr>
+    <tr>
+      <td>Refurbished EVGA GeForce RTX 3080 XC3 BLACK GAMING Video Card, 10G-P5-3881-KL, 10GB GDDR6X, iCX3 Cooling, ARGB LED, LHR</td>
+      <td>450</td>
+      <td><a href="https://www.newegg.com/evga-geforce-rtx-3080-10g-p5-3881-kl/p/1FT-001K-00FG4" target="_blank">https://www.newegg.com/evga-geforce-rtx-3080-10g-p5-3881-kl/p/1FT-001K-00FG4</a></td>
+    </tr>
+    <tr>
+      <td>Refurbished GIGABYTE GeForce RTX 3080 Turbo 10G Graphics Card (2X HDMI 2.1, 2X DisplayPort 1.4a, GDDR6X 320bit) GV-N3080TURBO-10GD(R2.0)(LHR)</td>
+      <td>460</td>
+      <td><a href="https://www.newegg.com/gigabyte-geforce-rtx-3080-gv-n3080turbo-10gd/p/1FT-000A-005W7" target="_blank">https://www.newegg.com/gigabyte-geforce-rtx-3080-gv-n3080turbo-10gd/p/1FT-000A-005W7</a></td>
+    </tr>
+    <tr>
+      <td>Refurbished MSI Ventus GeForce RTX 3080 10GB GDDR6X PCI Express 4.0 Video Card RTX 3080 VENTUS 3X PLUS 10G OC LHR</td>
+      <td>479</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-ventus-3x-plus-10g-oc-lhr/p/N82E16814137816" target="_blank">https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-ventus-3x-plus-10g-oc-lhr/p/N82E16814137816</a></td>
+    </tr>
+    <tr>
+      <td>Refurbished MSI Gaming GeForce RTX 3080 10GB GDDR6X PCI Express 4.0 ATX Video Card RTX 3080 GAMING Z TRIO 10G LHR</td>
+      <td>489</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-gaming-z-trio-10g-lhr/p/N82E16814137815" target="_blank">https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-gaming-z-trio-10g-lhr/p/N82E16814137815</a></td>
+    </tr>
+    <tr>
+      <td>Refurbished GIGABYTE AORUS GeForce RTX 3080 XTREME WATERFORCE WB 10G Graphics Card, WATERFORCE Water Block Cooling System, 10GB 320-bit GDDR6X, Video Card (GV-N3080AORUSX WB-10GD)</td>
+      <td>490</td>
+      <td><a href="https://www.newegg.com/gigabyte-geforce-rtx-3080-gv-n3080aorusx-wb-10gd/p/1FT-000A-00625" target="_blank">https://www.newegg.com/gigabyte-geforce-rtx-3080-gv-n3080aorusx-wb-10gd/p/1FT-000A-00625</a></td>
+    </tr>
+    <tr>
+      <td>Refurbished ASUS TUF Gaming NVIDIA GeForce RTX 3080 O10G V2 GAMING Edition Graphics Card (PCIe 4.0, 10GB GDDR6X, LHR, HDMI 2.1, DisplayPort 1.4a, Dual Ball Fan Bearings, Military-grade Certification)</td>
+      <td>494</td>
+      <td><a href="https://www.newegg.com/asus-geforce-rtx-3080-tuf-rtx3080-o10g-v2-gaming/p/1FT-000Y-007P6" target="_blank">https://www.newegg.com/asus-geforce-rtx-3080-tuf-rtx3080-o10g-v2-gaming/p/1FT-000Y-007P6</a></td>
+    </tr>
+    <tr>
+      <td>GIGABYTE Gaming OC GeForce RTX 3070 8GB GDDR6 PCI Express 4.0 ATX Video Card GV-N3070GAMING OC-8GD (rev. 2.0) (LHR)</td>
+      <td>499</td>
+      <td><a href="https://www.newegg.com/gigabyte-geforce-rtx-3070-gv-n3070gaming-oc-8gd/p/N82E16814932449" target="_blank">https://www.newegg.com/gigabyte-geforce-rtx-3070-gv-n3070gaming-oc-8gd/p/N82E16814932449</a></td>
+    </tr>
+    <tr>
+      <td>GIGABYTE Gaming OC GeForce RTX 3070 8GB GDDR6 PCI Express 4.0 ATX Video Card GV-N3070GAMING OC-8GD (rev. 2.0) (LHR)</td>
+      <td>499</td>
+      <td><a href="https://www.newegg.com/gigabyte-geforce-rtx-3070-gv-n3070gaming-oc-8gd/p/N82E16814932449" target="_blank">https://www.newegg.com/gigabyte-geforce-rtx-3070-gv-n3070gaming-oc-8gd/p/N82E16814932449</a></td>
+    </tr>
+    <tr>
+      <td>Refurbished MSI Gaming GeForce RTX 3080 10GB GDDR6X PCI Express 4.0 ATX Video Card RTX 3080 GAMING Z TRIO 10G LHR</td>
+      <td>509</td>
+      <td><a href="https://www.newegg.com/p/1FT-0009-008V8" target="_blank">https://www.newegg.com/p/1FT-0009-008V8</a></td>
+    </tr>
+    <tr>
+      <td>Refurbished MSI Ventus GeForce RTX 3080 10GB GDDR6X PCI Express 4.0 Video Card 320-Bit GDDR6X RTX 3080 VENTUS 3X 10G OC LHR</td>
+      <td>509</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-ventus-3x-10g-oc-lhr/p/1FT-0009-00AR9" target="_blank">https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-ventus-3x-10g-oc-lhr/p/1FT-0009-00AR9</a></td>
+    </tr>
+    <tr>
+      <td>Refurbished MSI RTX 3080 VENTUS 3X 10G OC LHR Ventus GeForce RTX 3080 Video Card</td>
+      <td>519</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-ventus-3x-10g-oc-lhr/p/1FT-0009-009A1" target="_blank">https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-ventus-3x-10g-oc-lhr/p/1FT-0009-009A1</a></td>
+    </tr>
+    <tr>
+      <td>Refurbished MSI RTX 3080 SUPRIM X 10G LHR Suprim GeForce RTX 3080 Video Card</td>
+      <td>529</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-suprim-x-10g-lhr/p/1FT-0009-009K4" target="_blank">https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-suprim-x-10g-lhr/p/1FT-0009-009K4</a></td>
+    </tr>
+    <tr>
+      <td>Refurbished MSI Suprim GeForce RTX 3080 10GB GDDR6X PCI Express 4.0 Video Card RTX 3080 SUPRIM X 10G LHR</td>
+      <td>533</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-suprim-x-10g-lhr/p/1FT-0009-00AK3" target="_blank">https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-suprim-x-10g-lhr/p/1FT-0009-00AK3</a></td>
+    </tr>
+    <tr>
+      <td>Refurbished MSI Suprim GeForce RTX 3080 10GB GDDR6X PCI Express 4.0 Video Card RTX 3080 SUPRIM X 10G\n(LHR)</td>
+      <td>539</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-suprim-x-10g-lhr/p/1FT-0009-00AS8" target="_blank">https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-suprim-x-10g-lhr/p/1FT-0009-00AS8</a></td>
+    </tr>
+    <tr>
+      <td>Refurbished EVGA GeForce RTX 3080 FTW3 ULTRA GAMING Video Card, 10G-P5-3897-KL, 10GB GDDR6X, iCX3 Technology, ARGB LED, Metal Backplate, LHR</td>
+      <td>564</td>
+      <td><a href="https://www.newegg.com/evga-geforce-rtx-3080-10g-p5-3897-kl/p/1FT-001K-00DF8" target="_blank">https://www.newegg.com/evga-geforce-rtx-3080-10g-p5-3897-kl/p/1FT-001K-00DF8</a></td>
+    </tr>
+    <tr>
+      <td>ASUS ROG Strix GeForce RTX 4060 Ti OC Edition Gaming Graphics Card (PCIe 4.0, 16GB GDDR6, DLSS 3, HDMI 2.1a, DisplayPort 1.4a, Aura Sync) ROG-STRIX-RTX4060TI-O16G-GAMING</td>
+      <td>569</td>
+      <td><a href="https://www.newegg.com/asus-geforce-rtx-4060-ti-rog-strix-rtx4060ti-o16g-gaming/p/N82E16814126668" target="_blank">https://www.newegg.com/asus-geforce-rtx-4060-ti-rog-strix-rtx4060ti-o16g-gaming/p/N82E16814126668</a></td>
+    </tr>
+    <tr>
+      <td>ASUS ROG Strix GeForce RTX 4060 Ti OC Edition Gaming Graphics Card (PCIe 4.0, 16GB GDDR6, DLSS 3, HDMI 2.1a, DisplayPort 1.4a, Aura Sync) ROG-STRIX-RTX4060TI-O16G-GAMING</td>
+      <td>569</td>
+      <td><a href="https://www.newegg.com/asus-geforce-rtx-4060-ti-rog-strix-rtx4060ti-o16g-gaming/p/N82E16814126668" target="_blank">https://www.newegg.com/asus-geforce-rtx-4060-ti-rog-strix-rtx4060ti-o16g-gaming/p/N82E16814126668</a></td>
+    </tr>
+    <tr>
+      <td>Refurbished ASUS ROG STRIX GeForce RTX 3080 10GB GDDR6X PCI Express 4.0 x16 ATX Video Card ROG-STRIX-RTX3080-O10G-WHITE-V2 (LHR)</td>
+      <td>570</td>
+      <td><a href="https://www.newegg.com/asus-geforce-rtx-3080-rog-strix-rtx3080-o10g-white-v2/p/1FT-000Y-007R3" target="_blank">https://www.newegg.com/asus-geforce-rtx-3080-rog-strix-rtx3080-o10g-white-v2/p/1FT-000Y-007R3</a></td>
+    </tr>
+    <tr>
+      <td>MSI Gaming GeForce RTX 3070 Ti 8GB GDDR6X PCI Express 4.0 Video Card RTX 3070 Ti Gaming X Trio 8G</td>
+      <td>576</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3070-ti-gaming-x-trio-8g/p/N82E16814137661" target="_blank">https://www.newegg.com/msi-geforce-rtx-3070-ti-gaming-x-trio-8g/p/N82E16814137661</a></td>
+    </tr>
+    <tr>
+      <td>MSI Gaming GeForce RTX 3070 Ti 8GB GDDR6X PCI Express 4.0 Video Card RTX 3070 Ti Gaming X Trio 8G</td>
+      <td>576</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3070-ti-gaming-x-trio-8g/p/N82E16814137661" target="_blank">https://www.newegg.com/msi-geforce-rtx-3070-ti-gaming-x-trio-8g/p/N82E16814137661</a></td>
+    </tr>
+    <tr>
+      <td>Refurbished GIGABYTE GeForce RTX 3080 Master 10GB GDDR6 GV-N3080AORUS M-10GD Video Graphic Card GPU</td>
+      <td>599</td>
+      <td><a href="https://www.newegg.com/gigabyte-geforce-rtx-3080/p/1FT-000A-005X3" target="_blank">https://www.newegg.com/gigabyte-geforce-rtx-3080/p/1FT-000A-005X3</a></td>
+    </tr>
+    <tr>
+      <td>GIGABYTE WINDFORCE GeForce RTX 4070 12GB GDDR6X PCI Express 4.0 x16 ATX Video Card GV-N4070WF3OC-12GD</td>
+      <td>599</td>
+      <td><a href="https://www.newegg.com/gigabyte-geforce-rtx-4070-gv-n4070wf3oc-12gd/p/N82E16814932611" target="_blank">https://www.newegg.com/gigabyte-geforce-rtx-4070-gv-n4070wf3oc-12gd/p/N82E16814932611</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 4070 12GB GDDR6X PCI Express 4.0 ATX Video Card RTX 4070 VENTUS 2X 12G OC</td>
+      <td>599</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4070-rtx-4070-ventus-2x-12g-oc/p/N82E16814137787" target="_blank">https://www.newegg.com/msi-geforce-rtx-4070-rtx-4070-ventus-2x-12g-oc/p/N82E16814137787</a></td>
+    </tr>
+    <tr>
+      <td>GIGABYTE WINDFORCE GeForce RTX 4070 12GB GDDR6X PCI Express 4.0 x16 ATX Video Card GV-N4070WF3OC-12GD</td>
+      <td>599</td>
+      <td><a href="https://www.newegg.com/gigabyte-geforce-rtx-4070-gv-n4070wf3oc-12gd/p/N82E16814932611" target="_blank">https://www.newegg.com/gigabyte-geforce-rtx-4070-gv-n4070wf3oc-12gd/p/N82E16814932611</a></td>
+    </tr>
+    <tr>
+      <td>GIGABYTE WINDFORCE GeForce RTX 4070 12GB GDDR6X PCI Express 4.0 x16 ATX Video Card GV-N4070WF3OC-12GD</td>
+      <td>599</td>
+      <td><a href="https://www.newegg.com/gigabyte-geforce-rtx-4070-gv-n4070wf3oc-12gd/p/N82E16814932611" target="_blank">https://www.newegg.com/gigabyte-geforce-rtx-4070-gv-n4070wf3oc-12gd/p/N82E16814932611</a></td>
+    </tr>
+    <tr>
+      <td>GIGABYTE WINDFORCE GeForce RTX 4070 12GB GDDR6X PCI Express 4.0 x16 ATX Video Card GV-N4070WF3OC-12GD</td>
+      <td>599</td>
+      <td><a href="https://www.newegg.com/gigabyte-geforce-rtx-4070-gv-n4070wf3oc-12gd/p/N82E16814932611" target="_blank">https://www.newegg.com/gigabyte-geforce-rtx-4070-gv-n4070wf3oc-12gd/p/N82E16814932611</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 4070 12GB GDDR6X PCI Express 4.0 ATX Video Card RTX 4070 VENTUS 2X 12G OC</td>
+      <td>599</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4070-rtx-4070-ventus-2x-12g-oc/p/N82E16814137787" target="_blank">https://www.newegg.com/msi-geforce-rtx-4070-rtx-4070-ventus-2x-12g-oc/p/N82E16814137787</a></td>
+    </tr>
+    <tr>
+      <td>Refurbished MSI Gaming GeForce RTX 3080 Ti 12GB GDDR6X PCI Express 4.0 ATX Video Cards RTX 3080 Ti Gaming X Trio 12G</td>
+      <td>605</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3080-ti-rtx-3080-ti-gaming-x-trio-12g/p/N82E16814137814" target="_blank">https://www.newegg.com/msi-geforce-rtx-3080-ti-rtx-3080-ti-gaming-x-trio-12g/p/N82E16814137814</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 4070 12GB GDDR6X PCI Express 4.0 ATX Video Card RTX 4070 VENTUS 3X 12G OC</td>
+      <td>609</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4070-rtx-4070-ventus-3x-12g-oc/p/N82E16814137789" target="_blank">https://www.newegg.com/msi-geforce-rtx-4070-rtx-4070-ventus-3x-12g-oc/p/N82E16814137789</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 4070 12GB GDDR6X PCI Express 4.0 ATX Video Card RTX 4070 VENTUS 3X 12G OC</td>
+      <td>609</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4070-rtx-4070-ventus-3x-12g-oc/p/N82E16814137789" target="_blank">https://www.newegg.com/msi-geforce-rtx-4070-rtx-4070-ventus-3x-12g-oc/p/N82E16814137789</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 4070 12GB GDDR6X PCI Express 4.0 ATX Video Card RTX 4070 VENTUS 3X 12G OC</td>
+      <td>609</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4070-rtx-4070-ventus-3x-12g-oc/p/N82E16814137789" target="_blank">https://www.newegg.com/msi-geforce-rtx-4070-rtx-4070-ventus-3x-12g-oc/p/N82E16814137789</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 4070 12GB GDDR6X PCI Express 4.0 ATX Video Card RTX 4070 VENTUS 3X 12G OC</td>
+      <td>609</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4070-rtx-4070-ventus-3x-12g-oc/p/N82E16814137789" target="_blank">https://www.newegg.com/msi-geforce-rtx-4070-rtx-4070-ventus-3x-12g-oc/p/N82E16814137789</a></td>
+    </tr>
+    <tr>
+      <td>Refurbished ASUS GeForce RTX 3080 Ti TUF GAMING OC 12GB GDDR6X TUF-RTX3080TI-O12G-GAMING Video Graphic Card GPU</td>
+      <td>615</td>
+      <td><a href="https://www.newegg.com/asus-geforce-rtx-3080-ti/p/1FT-000Y-008V3" target="_blank">https://www.newegg.com/asus-geforce-rtx-3080-ti/p/1FT-000Y-008V3</a></td>
+    </tr>
+    <tr>
+      <td>GIGABYTE Gaming OC GeForce RTX 3080 10GB GDDR6X PCI Express 4.0 ATX Video Card GV-N3080GAMING OC-10GD (rev. 2.0) (LHR)</td>
+      <td>640</td>
+      <td><a href="https://www.newegg.com/gigabyte-geforce-rtx-3080-gv-n3080gaming-oc-10gd/p/N82E16814932459" target="_blank">https://www.newegg.com/gigabyte-geforce-rtx-3080-gv-n3080gaming-oc-10gd/p/N82E16814932459</a></td>
+    </tr>
+    <tr>
+      <td>ASUS TUF Gaming NVIDIA GeForce RTX 3080 V2 OC Edition Graphics Card (PCIe 4.0, 10GB GDDR6X, LHR, HDMI 2.1, DisplayPort 1.4a, Dual Ball Fan Bearings, Military-grade Certification, GPU Tweak II)</td>
+      <td>689</td>
+      <td><a href="https://www.newegg.com/asus-geforce-rtx-3080-tuf-rtx3080-o10g-v2-gaming/p/N82E16814126525" target="_blank">https://www.newegg.com/asus-geforce-rtx-3080-tuf-rtx3080-o10g-v2-gaming/p/N82E16814126525</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 3080 10GB GDDR6X PCI Express 4.0 Video Card RTX 3080 VENTUS 3X 10G OC</td>
+      <td>690</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-ventus-3x-10g-oc/p/N82E16814137598" target="_blank">https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-ventus-3x-10g-oc/p/N82E16814137598</a></td>
+    </tr>
+    <tr>
+      <td>GIGABYTE Vision OC GeForce RTX 3080 10GB GDDR6X PCI Express 4.0 ATX Video Card GV-N3080VISION OC-10GD (rev. 2.0) (LHR)</td>
+      <td>691</td>
+      <td><a href="https://www.newegg.com/gigabyte-geforce-rtx-3080-gv-n3080vision-oc-10gd/p/N82E16814932460" target="_blank">https://www.newegg.com/gigabyte-geforce-rtx-3080-gv-n3080vision-oc-10gd/p/N82E16814932460</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 3080 10GB GDDR6X PCI Express 4.0 Video Card RTX 3080 VENTUS 3X 10G OC LHR</td>
+      <td>693</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-ventus-3x-10g-oc-lhr/p/N82E16814137678" target="_blank">https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-ventus-3x-10g-oc-lhr/p/N82E16814137678</a></td>
+    </tr>
+    <tr>
+      <td>ASUS TUF Gaming NVIDIA GeForce RTX 3080 TUF-RTX3080-10G-GAMING Video Card</td>
+      <td>697</td>
+      <td><a href="https://www.newegg.com/asus-geforce-rtx-3080-tuf-rtx3080-10g-gaming/p/N82E16814126453" target="_blank">https://www.newegg.com/asus-geforce-rtx-3080-tuf-rtx3080-10g-gaming/p/N82E16814126453</a></td>
+    </tr>
+    <tr>
+      <td>GIGABYTE Eagle GeForce RTX 3080 10GB GDDR6X PCI Express 4.0 ATX Video Card GV-N3080EAGLE-10GD (rev. 2.0) (LHR)</td>
+      <td>697</td>
+      <td><a href="https://www.newegg.com/gigabyte-geforce-rtx-3080-gv-n3080eagle-10gd/p/N82E16814932461" target="_blank">https://www.newegg.com/gigabyte-geforce-rtx-3080-gv-n3080eagle-10gd/p/N82E16814932461</a></td>
+    </tr>
+    <tr>
+      <td>ASUS TUF Gaming NVIDIA GeForce RTX 3080 O10G V2 GAMING Edition Graphics Card (PCIe 4.0, 10GB GDDR6X, LHR, HDMI 2.1, DisplayPort 1.4a, Dual Ball Fan Bearings, Military-grade Certification)</td>
+      <td>699</td>
+      <td><a href="https://www.newegg.com/p/1FT-000Y-00955" target="_blank">https://www.newegg.com/p/1FT-000Y-00955</a></td>
+    </tr>
+    <tr>
+      <td>ASUS TUF Gaming GeForce RTX 3080 TUF-RTX3080-O10G-GAMING Video Card</td>
+      <td>701</td>
+      <td><a href="https://www.newegg.com/asus-geforce-rtx-3080-tuf-rtx3080-o10g-gaming/p/N82E16814126452" target="_blank">https://www.newegg.com/asus-geforce-rtx-3080-tuf-rtx3080-o10g-gaming/p/N82E16814126452</a></td>
+    </tr>
+    <tr>
+      <td>GIGABYTE GeForce RTX 3080 GAMING OC 10GB Video Card, GV-N3080GAMING OC-10GD</td>
+      <td>715</td>
+      <td><a href="https://www.newegg.com/gigabyte-geforce-rtx-3080-gv-n3080gaming-oc-10gd/p/N82E16814932329" target="_blank">https://www.newegg.com/gigabyte-geforce-rtx-3080-gv-n3080gaming-oc-10gd/p/N82E16814932329</a></td>
+    </tr>
+    <tr>
+      <td>MSI Gaming GeForce RTX 3080 10GB GDDR6X PCI Express 4.0 Video Card RTX 3080 GAMING X TRIO 10G</td>
+      <td>744</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-gaming-x-trio-10g/p/N82E16814137597" target="_blank">https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-gaming-x-trio-10g/p/N82E16814137597</a></td>
+    </tr>
+    <tr>
+      <td>MSI Gaming GeForce RTX 3080 10GB GDDR6X PCI Express 4.0 ATX Video Card RTX 3080 GAMING Z TRIO 10G LHR</td>
+      <td>745</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-gaming-z-trio-10g-lhr/p/N82E16814137677" target="_blank">https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-gaming-z-trio-10g-lhr/p/N82E16814137677</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 3080 10GB GDDR6X PCI Express 4.0 Video Card RTX 3080 VENTUS 3X PLUS 10G OC LHR</td>
+      <td>756</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-ventus-3x-plus-10g-oc-lhr/p/N82E16814137686" target="_blank">https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-ventus-3x-plus-10g-oc-lhr/p/N82E16814137686</a></td>
+    </tr>
+    <tr>
+      <td>Gigabyte GeForce RTX 3080 Turbo 10GB V2</td>
+      <td>767</td>
+      <td><a href="https://www.newegg.com/gigabyte-gv-n3080turbo-10gd-v2/p/1FT-000A-002P3" target="_blank">https://www.newegg.com/gigabyte-gv-n3080turbo-10gd-v2/p/1FT-000A-002P3</a></td>
+    </tr>
+    <tr>
+      <td>ASUS ROG Strix GeForce RTX 3080 10GB GDDR6X PCI Express 4.0 Video Card ROG-STRIX-RTX3080-O10G-GAMING</td>
+      <td>796</td>
+      <td><a href="https://www.newegg.com/asus-geforce-rtx-3080-rog-strix-rtx3080-o10g-gaming/p/N82E16814126457" target="_blank">https://www.newegg.com/asus-geforce-rtx-3080-rog-strix-rtx3080-o10g-gaming/p/N82E16814126457</a></td>
+    </tr>
+    <tr>
+      <td>ASUS ROG Strix GeForce RTX 3080 10GB GDDR6X PCI Express 4.0 Video Card ROG-STRIX-RTX3080-10G-GAMING</td>
+      <td>796</td>
+      <td><a href="https://www.newegg.com/asus-geforce-rtx-3080-rog-strix-rtx3080-10g-gaming/p/N82E16814126469" target="_blank">https://www.newegg.com/asus-geforce-rtx-3080-rog-strix-rtx3080-10g-gaming/p/N82E16814126469</a></td>
+    </tr>
+    <tr>
+      <td>ASUS ROG Strix GeForce RTX 3080 10GB GDDR6X PCI Express 4.0 x16 Video Card ROG-STRIX-RTX3080-O10G-V2-GAMING LHR</td>
+      <td>796</td>
+      <td><a href="https://www.newegg.com/p/1FT-000Y-00669" target="_blank">https://www.newegg.com/p/1FT-000Y-00669</a></td>
+    </tr>
+    <tr>
+      <td>MSI Suprim GeForce RTX 3080 10GB GDDR6X PCI Express 4.0 Video Card RTX 3080 SUPRIM X 10G</td>
+      <td>797</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3080-rtx3080-suprim-x-10g/p/N82E16814137609" target="_blank">https://www.newegg.com/msi-geforce-rtx-3080-rtx3080-suprim-x-10g/p/N82E16814137609</a></td>
+    </tr>
+    <tr>
+      <td>Refurbished GIGABYTE GeForce RTX 3080 GAMING OC 12G Graphics Card, 3 x WINDFORCE Fans, 12GB 384-bit GDDR6X, GV-N3080GAMING OC-12GD Video Card</td>
+      <td>799</td>
+      <td><a href="https://www.newegg.com/gigabyte-geforce-rtx-3080-gv-n3080gaming-oc-12gd/p/N82E16814932542" target="_blank">https://www.newegg.com/gigabyte-geforce-rtx-3080-gv-n3080gaming-oc-12gd/p/N82E16814932542</a></td>
+    </tr>
+    <tr>
+      <td>ASUS ROG Strix GeForce RTX 3080 V2 OC Edition 10GB GDDR6X PCI Express 4.0 x16 Video Card ROG-STRIX-RTX3080-O10G-V2-GAMING (LHR)</td>
+      <td>814</td>
+      <td><a href="https://www.newegg.com/asus-geforce-rtx-3080-strix-rtx3080-o10g-v2-gaming/p/N82E16814126534" target="_blank">https://www.newegg.com/asus-geforce-rtx-3080-strix-rtx3080-o10g-v2-gaming/p/N82E16814126534</a></td>
+    </tr>
+    <tr>
+      <td>MSI Suprim GeForce RTX 3080 10GB GDDR6X PCI Express 4.0 Video Card RTX 3080 SUPRIM 10G</td>
+      <td>816</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-suprim-10g/p/N82E16814137634" target="_blank">https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-suprim-10g/p/N82E16814137634</a></td>
+    </tr>
+    <tr>
+      <td>MSI Suprim GeForce RTX 3080 10GB GDDR6X PCI Express 4.0 Video Card RTX 3080 SUPRIM X 10G LHR</td>
+      <td>819</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-suprim-x-10g-lhr/p/N82E16814137676" target="_blank">https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-suprim-x-10g-lhr/p/N82E16814137676</a></td>
+    </tr>
+    <tr>
+      <td>GIGABYTE AORUS GeForce RTX 3080 MASTER 10G (rev. 2.0) Graphics Card, Max Covered Cooling, 10GB 320-bit GDDR6X, GV-N3080AORUS M-10GD Rev2.0 Video Card</td>
+      <td>828</td>
+      <td><a href="https://www.newegg.com/gigabyte-geforce-rtx-3080-gv-n3080aorus-m-10gd/p/N82E16814932411" target="_blank">https://www.newegg.com/gigabyte-geforce-rtx-3080-gv-n3080aorus-m-10gd/p/N82E16814932411</a></td>
+    </tr>
+    <tr>
+      <td>GIGABYTE AORUS GeForce RTX 3080 12GB GDDR6X PCI Express 4.0 ATX Video Card GV-N3080AORUSX WB-12GD</td>
+      <td>835</td>
+      <td><a href="https://www.newegg.com/gigabyte-geforce-rtx-3080-gv-n3080aorusx-wb-12gd/p/N82E16814932504" target="_blank">https://www.newegg.com/gigabyte-geforce-rtx-3080-gv-n3080aorusx-wb-12gd/p/N82E16814932504</a></td>
+    </tr>
+    <tr>
+      <td>ASUS TUF Gaming NVIDIA GeForce RTX 3080 O10G V2 GAMING Edition Graphics Card (PCIe 4.0, 10GB GDDR6X, LHR, HDMI 2.1, DisplayPort 1.4a, Dual Ball Fan Bearings, Military-grade Certification)</td>
+      <td>854</td>
+      <td><a href="https://www.newegg.com/asus-geforce-rtx-3080-tuf-rtx3080-o10g-v2-gaming/p/1FT-000Y-006C3" target="_blank">https://www.newegg.com/asus-geforce-rtx-3080-tuf-rtx3080-o10g-v2-gaming/p/1FT-000Y-006C3</a></td>
+    </tr>
+    <tr>
+      <td>MSI Gaming GeForce RTX 4070 Ti 12GB GDDR6X PCI Express 4.0 Video Card RTX 4070 Ti GAMING X TRIO 12G</td>
+      <td>859</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4070-ti-rtx-4070-ti-gaming-x-trio-12g/p/N82E16814137771" target="_blank">https://www.newegg.com/msi-geforce-rtx-4070-ti-rtx-4070-ti-gaming-x-trio-12g/p/N82E16814137771</a></td>
+    </tr>
+    <tr>
+      <td>MSI Gaming GeForce RTX 4070 Ti 12GB GDDR6X PCI Express 4.0 Video Card RTX 4070 Ti GAMING X TRIO 12G</td>
+      <td>859</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4070-ti-rtx-4070-ti-gaming-x-trio-12g/p/N82E16814137771" target="_blank">https://www.newegg.com/msi-geforce-rtx-4070-ti-rtx-4070-ti-gaming-x-trio-12g/p/N82E16814137771</a></td>
+    </tr>
+    <tr>
+      <td>MSI Gaming GeForce RTX 4070 Ti 12GB GDDR6X PCI Express 4.0 Video Card RTX 4070 Ti GAMING X TRIO 12G</td>
+      <td>859</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4070-ti-rtx-4070-ti-gaming-x-trio-12g/p/N82E16814137771" target="_blank">https://www.newegg.com/msi-geforce-rtx-4070-ti-rtx-4070-ti-gaming-x-trio-12g/p/N82E16814137771</a></td>
+    </tr>
+    <tr>
+      <td>MSI Gaming GeForce RTX 4070 Ti 12GB GDDR6X PCI Express 4.0 Video Card RTX 4070 Ti GAMING X TRIO 12G</td>
+      <td>859</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4070-ti-rtx-4070-ti-gaming-x-trio-12g/p/N82E16814137771" target="_blank">https://www.newegg.com/msi-geforce-rtx-4070-ti-rtx-4070-ti-gaming-x-trio-12g/p/N82E16814137771</a></td>
+    </tr>
+    <tr>
+      <td>MSI Gaming GeForce RTX 4070 Ti 12GB GDDR6X PCI Express 4.0 Video Card RTX 4070 Ti GAMING X TRIO 12G</td>
+      <td>859</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4070-ti-rtx-4070-ti-gaming-x-trio-12g/p/N82E16814137771" target="_blank">https://www.newegg.com/msi-geforce-rtx-4070-ti-rtx-4070-ti-gaming-x-trio-12g/p/N82E16814137771</a></td>
+    </tr>
+    <tr>
+      <td>MSI Gaming GeForce RTX 4070 Ti 12GB GDDR6X PCI Express 4.0 Video Card RTX 4070 Ti GAMING X TRIO 12G</td>
+      <td>859</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4070-ti-rtx-4070-ti-gaming-x-trio-12g/p/N82E16814137771" target="_blank">https://www.newegg.com/msi-geforce-rtx-4070-ti-rtx-4070-ti-gaming-x-trio-12g/p/N82E16814137771</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 3080 Ti 12GB GDDR6X PCI Express 4.0 ATX Video Card RTX 3080 Ti Ventus 3X 12G OC</td>
+      <td>872</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3080-ti-rtx-3080-ti-ventus-3x-12g-oc/p/N82E16814137651" target="_blank">https://www.newegg.com/msi-geforce-rtx-3080-ti-rtx-3080-ti-ventus-3x-12g-oc/p/N82E16814137651</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 3080 Ti 12GB GDDR6X PCI Express 4.0 ATX Video Card RTX 3080 Ti VENTUS 3X 12G</td>
+      <td>876</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3080-ti-rtx-3080-ti-ventus-3x-12g/p/N82E16814137656" target="_blank">https://www.newegg.com/msi-geforce-rtx-3080-ti-rtx-3080-ti-ventus-3x-12g/p/N82E16814137656</a></td>
+    </tr>
+    <tr>
+      <td>Refurbished ASUS Geforce RTX 3080 Ti LC OC 12GB GDDR6X ROG-STRIX-LC-RTX3080TI-O12G-GAMING Video Graphic Card GPU</td>
+      <td>899</td>
+      <td><a href="https://www.newegg.com/asus-geforce-rtx-3080-ti/p/1FT-000Y-008H1" target="_blank">https://www.newegg.com/asus-geforce-rtx-3080-ti/p/1FT-000Y-008H1</a></td>
+    </tr>
+    <tr>
+      <td>GIGABYTE Eagle GeForce RTX 3080 Ti 12GB GDDR6X PCI Express 4.0 ATX Video Card GV-N308TEAGLE OC-12GD</td>
+      <td>901</td>
+      <td><a href="https://www.newegg.com/gigabyte-geforce-rtx-3080-ti-gv-n308teagle-oc-12gd/p/N82E16814932438" target="_blank">https://www.newegg.com/gigabyte-geforce-rtx-3080-ti-gv-n308teagle-oc-12gd/p/N82E16814932438</a></td>
+    </tr>
+    <tr>
+      <td>GIGABYTE Gaming GeForce RTX 3080 Ti 12GB GDDR6X PCI Express 4.0 ATX Video Card GV-N308TGAMING OC-12GD</td>
+      <td>905</td>
+      <td><a href="https://www.newegg.com/gigabyte-geforce-rtx-3080-ti-gv-n308tgaming-oc-12gd/p/N82E16814932436" target="_blank">https://www.newegg.com/gigabyte-geforce-rtx-3080-ti-gv-n308tgaming-oc-12gd/p/N82E16814932436</a></td>
+    </tr>
+    <tr>
+      <td>GIGABYTE GeForce RTX 3080 GAMING OC 12G Graphics Card, 3 x WINDFORCE Fans, 12GB 384-bit GDDR6X, GV-N3080GAMING OC-12GD Video Card</td>
+      <td>915</td>
+      <td><a href="https://www.newegg.com/gigabyte-geforce-rtx-3080-gv-n3080gaming-oc-12gd/p/N82E16814932489" target="_blank">https://www.newegg.com/gigabyte-geforce-rtx-3080-gv-n3080gaming-oc-12gd/p/N82E16814932489</a></td>
+    </tr>
+    <tr>
+      <td>MSI Gaming GeForce RTX 3080 Ti 12GB GDDR6X PCI Express 4.0 Video Card RTX 3080 Ti Gaming X Trio 12G</td>
+      <td>928</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3080-ti-rtx-3080-ti-gaming-x-trio-12g/p/N82E16814137650" target="_blank">https://www.newegg.com/msi-geforce-rtx-3080-ti-rtx-3080-ti-gaming-x-trio-12g/p/N82E16814137650</a></td>
+    </tr>
+    <tr>
+      <td>ASUS ROG Strix GeForce RTX 3080 10GB GDDR6X PCI Express 4.0 Video Card ROG-STRIX-RTX3080-O10G-WHITE</td>
+      <td>942</td>
+      <td><a href="https://www.newegg.com/asus-geforce-rtx-3080-rog-strix-rtx3080-o10g-white/p/N82E16814126483" target="_blank">https://www.newegg.com/asus-geforce-rtx-3080-rog-strix-rtx3080-o10g-white/p/N82E16814126483</a></td>
+    </tr>
+    <tr>
+      <td>GIGABYTE VISION OC GeForce RTX 3080 Ti 12GB GDDR6X PCI Express 4.0 ATX Video Card GV-N308TVISION OC-12GD</td>
+      <td>958</td>
+      <td><a href="https://www.newegg.com/gigabyte-geforce-rtx-3080-ti-gv-n308tvision-oc-12gd/p/N82E16814932437" target="_blank">https://www.newegg.com/gigabyte-geforce-rtx-3080-ti-gv-n308tvision-oc-12gd/p/N82E16814932437</a></td>
+    </tr>
+    <tr>
+      <td>ASUS TUF Gaming GeForce RTX 3080 Ti 12GB GDDR6X PCI Express 4.0 Video Card TUF-RTX3080TI-12G-GAMING</td>
+      <td>976</td>
+      <td><a href="https://www.newegg.com/asus-geforce-rtx-3080-ti-tuf-rtx3080ti-12g-gaming/p/N82E16814126510" target="_blank">https://www.newegg.com/asus-geforce-rtx-3080-ti-tuf-rtx3080ti-12g-gaming/p/N82E16814126510</a></td>
+    </tr>
+    <tr>
+      <td>ASUS ROG STRIX GeForce RTX 3080 10GB GDDR6X PCI Express 4.0 x16 ATX Video Card ROG-STRIX-RTX3080-O10G-WHITE-V2 (LHR)</td>
+      <td>990</td>
+      <td><a href="https://www.newegg.com/asus-geforce-rtx-3080-rtx3080-o10g-wht-v2/p/N82E16814126533" target="_blank">https://www.newegg.com/asus-geforce-rtx-3080-rtx3080-o10g-wht-v2/p/N82E16814126533</a></td>
+    </tr>
+    <tr>
+      <td>ASUS TUF Gaming NVIDIA GeForce RTX 3080 OC Edition Graphics Card (PCIe 4.0, 12GB GDDR6X, LHR, HDMI 2.1, DisplayPort 1.4a, Dual Ball Fan Bearings, Military-grade Certification, GPU Tweak)</td>
+      <td>992</td>
+      <td><a href="https://www.newegg.com/asus-geforce-rtx-3080-tuf-rtx3080-o12g-gaming/p/N82E16814126551" target="_blank">https://www.newegg.com/asus-geforce-rtx-3080-tuf-rtx3080-o12g-gaming/p/N82E16814126551</a></td>
+    </tr>
+    <tr>
+      <td>MSI Gaming GeForce RTX 4070 Ti 12GB GDDR6X PCI Express 4.0 ATX Video Card RTX 4070 Ti GAMING X TRIO WHITE 12G</td>
+      <td>1007</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4070-ti-rtx-4070-ti-gaming-x-trio-white-12g/p/N82E16814137786" target="_blank">https://www.newegg.com/msi-geforce-rtx-4070-ti-rtx-4070-ti-gaming-x-trio-white-12g/p/N82E16814137786</a></td>
+    </tr>
+    <tr>
+      <td>MSI Gaming GeForce RTX 4070 Ti 12GB GDDR6X PCI Express 4.0 ATX Video Card RTX 4070 Ti GAMING X TRIO WHITE 12G</td>
+      <td>1007</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4070-ti-rtx-4070-ti-gaming-x-trio-white-12g/p/N82E16814137786" target="_blank">https://www.newegg.com/msi-geforce-rtx-4070-ti-rtx-4070-ti-gaming-x-trio-white-12g/p/N82E16814137786</a></td>
+    </tr>
+    <tr>
+      <td>MSI Gaming GeForce RTX 4070 Ti 12GB GDDR6X PCI Express 4.0 ATX Video Card RTX 4070 Ti GAMING X TRIO WHITE 12G</td>
+      <td>1007</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4070-ti-rtx-4070-ti-gaming-x-trio-white-12g/p/N82E16814137786" target="_blank">https://www.newegg.com/msi-geforce-rtx-4070-ti-rtx-4070-ti-gaming-x-trio-white-12g/p/N82E16814137786</a></td>
+    </tr>
+    <tr>
+      <td>MSI Gaming GeForce RTX 4070 Ti 12GB GDDR6X PCI Express 4.0 ATX Video Card RTX 4070 Ti GAMING X TRIO WHITE 12G</td>
+      <td>1007</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4070-ti-rtx-4070-ti-gaming-x-trio-white-12g/p/N82E16814137786" target="_blank">https://www.newegg.com/msi-geforce-rtx-4070-ti-rtx-4070-ti-gaming-x-trio-white-12g/p/N82E16814137786</a></td>
+    </tr>
+    <tr>
+      <td>ASUS TUF Gaming GeForce RTX 3080 Ti 12GB GDDR6X PCI Express 4.0 Video Card TUF-RTX3080TI-O12G-GAMING</td>
+      <td>1012</td>
+      <td><a href="https://www.newegg.com/asus-geforce-rtx-3080-ti-tuf-rtx3080ti-o12g-gaming/p/N82E16814126509" target="_blank">https://www.newegg.com/asus-geforce-rtx-3080-ti-tuf-rtx3080ti-o12g-gaming/p/N82E16814126509</a></td>
+    </tr>
+    <tr>
+      <td>MSI Suprim GeForce RTX 3080 Ti 12GB GDDR6X PCI Express 4.0 ATX Video Card RTX 3080 Ti SUPRIM X 12G</td>
+      <td>1019</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3080-ti-suprim-x-12g/p/N82E16814137660" target="_blank">https://www.newegg.com/msi-geforce-rtx-3080-ti-suprim-x-12g/p/N82E16814137660</a></td>
+    </tr>
+    <tr>
+      <td>GDDR6X MSI GeForce RTX 3080 VENTUS 3X 10G OC LHR Graphics Card RTX 3080 10GB 320bit PCI Express 4.0</td>
+      <td>1027</td>
+      <td><a href="https://www.newegg.com/p/1FT-0009-008G1" target="_blank">https://www.newegg.com/p/1FT-0009-008G1</a></td>
+    </tr>
+    <tr>
+      <td>MSI GeForce RTX 3080 Ventus 3X Plus LHR Graphics Card 10GB GDRR6X 320-Bit 19 Gbps PCI Express 4.0 Triple Fan TORX Fan 3.0, 1x HDMI 3x DisplayPort 1.4a + HDMI 2.1 Cable([email protected]/[email protected])</td>
+      <td>1027</td>
+      <td><a href="https://www.newegg.com/p/1FT-0009-00935" target="_blank">https://www.newegg.com/p/1FT-0009-00935</a></td>
+    </tr>
+    <tr>
+      <td>MSI Suprim GeForce RTX 3080 Ti 12GB GDDR6X PCI Express 4.0 ATX Video Card RTX 3080 Ti SUPRIM X 12G</td>
+      <td>1067</td>
+      <td><a href="https://www.newegg.com/p/1FT-0009-00978" target="_blank">https://www.newegg.com/p/1FT-0009-00978</a></td>
+    </tr>
+    <tr>
+      <td>GIGABYTE AORUS GeForce RTX 3080 Ti 12GB GDDR6X PCI Express 4.0 ATX Video Card GV-N308TAORUS M-12GD</td>
+      <td>1083</td>
+      <td><a href="https://www.newegg.com/gigabyte-geforce-rtx-3080-ti-gv-n308taorus-m-12gd/p/N82E16814932435" target="_blank">https://www.newegg.com/gigabyte-geforce-rtx-3080-ti-gv-n308taorus-m-12gd/p/N82E16814932435</a></td>
+    </tr>
+    <tr>
+      <td>GIGABYTE GeForce RTX 3080 GAMING OC WATERFORCE WB 10G (rev2.0) Graphics Card, WATERFORCE Water Block Cooling System, 10GB 320-bit GDDR6X, GV-N3080GAMINGOC WB-10GD Rev2.0 Video Card (LHR)</td>
+      <td>1099</td>
+      <td><a href="https://www.newegg.com/gigabyte-geforce-rtx-3080-gv-n3080gamingoc-wb-10gd-rev2-0/p/N82E16814932478" target="_blank">https://www.newegg.com/gigabyte-geforce-rtx-3080-gv-n3080gamingoc-wb-10gd-rev2-0/p/N82E16814932478</a></td>
+    </tr>
+    <tr>
+      <td>ASUS ROG Strix NVIDIA GeForce RTX 3080 Ti OC Edition Gaming Graphics Card (PCIe 4.0, 12GB GDDR6X, HDMI 2.1, Axial-tech Fan Design, 2.9-Slot, Super Alloy Power II, ASUS Auto-Extreme Technology)</td>
+      <td>1119</td>
+      <td><a href="https://www.newegg.com/asus-geforce-rtx-3080-ti-rog-strix-rtx3080ti-o12g-gaming/p/N82E16814126508" target="_blank">https://www.newegg.com/asus-geforce-rtx-3080-ti-rog-strix-rtx3080ti-o12g-gaming/p/N82E16814126508</a></td>
+    </tr>
+    <tr>
+      <td>ZOTAC AMP Holo GeForce RTX 3080 Ti 12GB GDDR6X PCI Express 4.0 Video Card ZT-A30810F-10P</td>
+      <td>1138</td>
+      <td><a href="https://www.newegg.com/zotac-zt-a30810f-10p/p/N82E16814500515" target="_blank">https://www.newegg.com/zotac-zt-a30810f-10p/p/N82E16814500515</a></td>
+    </tr>
+    <tr>
+      <td>EVGA GeForce RTX 3080 FTW3 ULTRA GAMING Video Card, 10G-P5-3897-KR, 10GB GDDR6X, iCX3 Technology, ARGB LED, Metal Backplate</td>
+      <td>1145</td>
+      <td><a href="https://www.newegg.com/evga-geforce-rtx-3080-10g-p5-3897-kr/p/N82E16814487518" target="_blank">https://www.newegg.com/evga-geforce-rtx-3080-10g-p5-3897-kr/p/N82E16814487518</a></td>
+    </tr>
+    <tr>
+      <td>EVGA GeForce RTX 3080 FTW3 ULTRA GAMING Video Card, 10G-P5-3897-KL, 10GB GDDR6X, iCX3 Technology, ARGB LED, Metal Backplate, LHR</td>
+      <td>1149</td>
+      <td><a href="https://www.newegg.com/evga-geforce-rtx-3080-10g-p5-3897-kl/p/N82E16814487541" target="_blank">https://www.newegg.com/evga-geforce-rtx-3080-10g-p5-3897-kl/p/N82E16814487541</a></td>
+    </tr>
+    <tr>
+      <td>EVGA GeForce RTX 3080 12GB XC3 ULTRA GAMING, 12G-P5-4865-KL, 12GB GDDR6X, iCX3 Cooling, ARGB LED, Metal Backplate, LHR</td>
+      <td>1149</td>
+      <td><a href="https://www.newegg.com/evga-geforce-rtx-3080-12g-p5-4865-kl/p/N82E16814487557" target="_blank">https://www.newegg.com/evga-geforce-rtx-3080-12g-p5-4865-kl/p/N82E16814487557</a></td>
+    </tr>
+    <tr>
+      <td>GIGABYTE EAGLE OC GeForce RTX 4080 16GB GDDR6X PCI Express 4.0 x16 ATX Video Card GV-N4080EAGLE OC-16GD</td>
+      <td>1149</td>
+      <td><a href="https://www.newegg.com/gigabyte-geforce-rtx-4080-gv-n4080eagle-oc-16gd/p/N82E16814932562" target="_blank">https://www.newegg.com/gigabyte-geforce-rtx-4080-gv-n4080eagle-oc-16gd/p/N82E16814932562</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 4080 16GB GDDR6X PCI Express 4.0 Video Card RTX 4080 16GB VENTUS 3X OC</td>
+      <td>1149</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4080-rtx-4080-16gb-ventus-3x-oc/p/N82E16814137765" target="_blank">https://www.newegg.com/msi-geforce-rtx-4080-rtx-4080-16gb-ventus-3x-oc/p/N82E16814137765</a></td>
+    </tr>
+    <tr>
+      <td>GIGABYTE EAGLE OC GeForce RTX 4080 16GB GDDR6X PCI Express 4.0 x16 ATX Video Card GV-N4080EAGLE OC-16GD</td>
+      <td>1149</td>
+      <td><a href="https://www.newegg.com/gigabyte-geforce-rtx-4080-gv-n4080eagle-oc-16gd/p/N82E16814932562" target="_blank">https://www.newegg.com/gigabyte-geforce-rtx-4080-gv-n4080eagle-oc-16gd/p/N82E16814932562</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 4080 16GB GDDR6X PCI Express 4.0 Video Card RTX 4080 16GB VENTUS 3X OC</td>
+      <td>1149</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4080-rtx-4080-16gb-ventus-3x-oc/p/N82E16814137765" target="_blank">https://www.newegg.com/msi-geforce-rtx-4080-rtx-4080-16gb-ventus-3x-oc/p/N82E16814137765</a></td>
+    </tr>
+    <tr>
+      <td>EVGA GeForce RTX 3080 XC3 ULTRA GAMING Video Card, 10G-P5-3885-KR, 10GB GDDR6X, iCX3 Cooling, ARGB LED, Metal Backplate</td>
+      <td>1151</td>
+      <td><a href="https://www.newegg.com/evga-geforce-rtx-3080-10g-p5-3885-kr/p/N82E16814487520" target="_blank">https://www.newegg.com/evga-geforce-rtx-3080-10g-p5-3885-kr/p/N82E16814487520</a></td>
+    </tr>
+    <tr>
+      <td>NVIDIA GeForce RTX 3080 Founders Edition 10GB GDDR6 3080 FE Video Graphic Card GPU</td>
+      <td>1165</td>
+      <td><a href="https://www.newegg.com/nvidia-geforce-rtx-3080/p/1FT-0004-007R8" target="_blank">https://www.newegg.com/nvidia-geforce-rtx-3080/p/1FT-0004-007R8</a></td>
+    </tr>
+    <tr>
+      <td>Nvidia 3080 Founders Edition 10GB GDDR6X</td>
+      <td>1165</td>
+      <td><a href="https://www.newegg.com/p/1FT-0004-007N9" target="_blank">https://www.newegg.com/p/1FT-0004-007N9</a></td>
+    </tr>
+    <tr>
+      <td>GIGABYTE AORUS GeForce RTX 3080 XTREME WATERFORCE WB 10G Graphics Card, WATERFORCE Water Block Cooling System, 10GB 320-bit GDDR6X, GV-N3080AORUSX WB-10GD Video Card</td>
+      <td>1169</td>
+      <td><a href="https://www.newegg.com/gigabyte-geforce-rtx-3080-gv-n3080aorusx-wb-10gd/p/N82E16814932371" target="_blank">https://www.newegg.com/gigabyte-geforce-rtx-3080-gv-n3080aorusx-wb-10gd/p/N82E16814932371</a></td>
+    </tr>
+    <tr>
+      <td>ZOTAC TRINITY OC LHR GeForce RTX 3080 10GB GDDR6X PCI Express 4.0 Video Card ZT-A30800J-10PLHR</td>
+      <td>1182</td>
+      <td><a href="https://www.newegg.com/zotac-geforce-rtx-3080-zt-a30800j-10plhr/p/N82E16814500520" target="_blank">https://www.newegg.com/zotac-geforce-rtx-3080-zt-a30800j-10plhr/p/N82E16814500520</a></td>
+    </tr>
+    <tr>
+      <td>EVGA GeForce RTX 3080 Ti XC3 ULTRA GAMING Video Card, 12G-P5-3955-KR, 12GB GDDR6X, iCX3 Cooling, ARGB LED, Metal Backplate</td>
+      <td>1189</td>
+      <td><a href="https://www.newegg.com/evga-geforce-rtx-3080-ti-12g-p5-3955-kr/p/N82E16814487548" target="_blank">https://www.newegg.com/evga-geforce-rtx-3080-ti-12g-p5-3955-kr/p/N82E16814487548</a></td>
+    </tr>
+    <tr>
+      <td>Gigabyte GV-N3080TURBO-10GD GeForce RTX 3080 Turbo 10G rev 2.0 LHR, 10GB GDDR6X, Extreme Durability Graphics Card</td>
+      <td>1190</td>
+      <td><a href="https://www.newegg.com/p/1FT-000A-002V4" target="_blank">https://www.newegg.com/p/1FT-000A-002V4</a></td>
+    </tr>
+    <tr>
+      <td>GIGABYTE GeForce RTX 3080 10GB GDDR6X PCI Express 4.0 Video Card GV-N3080 TURBO-10GD</td>
+      <td>1190</td>
+      <td><a href="https://www.newegg.com/gigabyte-rtx-3080-rtx-3080/p/1FT-000A-003Z4" target="_blank">https://www.newegg.com/gigabyte-rtx-3080-rtx-3080/p/1FT-000A-003Z4</a></td>
+    </tr>
+    <tr>
+      <td>MSI Gaming GeForce RTX 4080 16GB GDDR6X PCI Express 4.0 Video Card RTX 4080 16GB GAMING X TRIO</td>
+      <td>1199</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4080-rtx-4080-16gb-gaming-x-trio/p/N82E16814137766" target="_blank">https://www.newegg.com/msi-geforce-rtx-4080-rtx-4080-16gb-gaming-x-trio/p/N82E16814137766</a></td>
+    </tr>
+    <tr>
+      <td>ASUS TUF Gaming GeForce RTX 4080 Gaming Graphics Card (PCIe 4.0, 16GB GDDR6X, HDMI 2.1a, DisplayPort 1.4a) TUF-RTX4080-16G-GAMING</td>
+      <td>1199</td>
+      <td><a href="https://www.newegg.com/asus-geforce-rtx-4080-tuf-rtx4080-16g-gaming/p/N82E16814126599" target="_blank">https://www.newegg.com/asus-geforce-rtx-4080-tuf-rtx4080-16g-gaming/p/N82E16814126599</a></td>
+    </tr>
+    <tr>
+      <td>ASUS TUF Gaming GeForce RTX 4080 Gaming Graphics Card (PCIe 4.0, 16GB GDDR6X, HDMI 2.1a, DisplayPort 1.4a) TUF-RTX4080-16G-GAMING</td>
+      <td>1199</td>
+      <td><a href="https://www.newegg.com/asus-geforce-rtx-4080-tuf-rtx4080-16g-gaming/p/N82E16814126599" target="_blank">https://www.newegg.com/asus-geforce-rtx-4080-tuf-rtx4080-16g-gaming/p/N82E16814126599</a></td>
+    </tr>
+    <tr>
+      <td>MSI Gaming GeForce RTX 4080 16GB GDDR6X PCI Express 4.0 Video Card RTX 4080 16GB GAMING X TRIO</td>
+      <td>1199</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4080-rtx-4080-16gb-gaming-x-trio/p/N82E16814137766" target="_blank">https://www.newegg.com/msi-geforce-rtx-4080-rtx-4080-16gb-gaming-x-trio/p/N82E16814137766</a></td>
+    </tr>
+    <tr>
+      <td>GDDR6X Gigabyte AORUS GeForce RTX 3080 MASTER 10G LHR Graphics Card 320bit RTX 3080 Gaming Video</td>
+      <td>1250</td>
+      <td><a href="https://www.newegg.com/p/1FT-000A-003X6" target="_blank">https://www.newegg.com/p/1FT-000A-003X6</a></td>
+    </tr>
+    <tr>
+      <td>EVGA GeForce RTX 3080 Ti FTW3 ULTRA GAMING Video Card, 12G-P5-3967-KR, 12GB GDDR6X, iCX3 Technology, ARGB LED, Metal Backplate</td>
+      <td>1330</td>
+      <td><a href="https://www.newegg.com/evga-geforce-rtx-3080-ti-12g-p5-3967-kr/p/N82E16814487547" target="_blank">https://www.newegg.com/evga-geforce-rtx-3080-ti-12g-p5-3967-kr/p/N82E16814487547</a></td>
+    </tr>
+    <tr>
+      <td>EVGA GeForce RTX 3080 Ti XC3 GAMING Video Card, 12G-P5-3953-KR, 12GB GDDR6X, iCX3 Cooling, ARGB LED, Metal Backplate</td>
+      <td>1368</td>
+      <td><a href="https://www.newegg.com/evga-geforce-rtx-3080-ti-12g-p5-3953-kr/p/N82E16814487549" target="_blank">https://www.newegg.com/evga-geforce-rtx-3080-ti-12g-p5-3953-kr/p/N82E16814487549</a></td>
+    </tr>
+    <tr>
+      <td>ZOTAC GeForce RTX 3080 Ti Trinity OC Graphics Card, 12GB GDDR6X 384-bit 19 Gbps PCIe 4.0, IceStorm 2.0 Advanced Cooling, Spectra 2.0 RGB Lighting, w/ MT HDMI 2.1 Cable([email protected]/[email protected])</td>
+      <td>1369</td>
+      <td><a href="https://www.newegg.com/p/1FT-000M-003D8" target="_blank">https://www.newegg.com/p/1FT-000M-003D8</a></td>
+    </tr>
+    <tr>
+      <td>EVGA GeForce RTX 3080 Ti 12GB FTW3 ULTRA GAMING GDDR6X Video Graphics Card GPU</td>
+      <td>1377</td>
+      <td><a href="https://www.newegg.com/p/1FT-001K-00DP4" target="_blank">https://www.newegg.com/p/1FT-001K-00DP4</a></td>
+    </tr>
+    <tr>
+      <td>EVGA GeForce RTX 3080 Ti FTW3 Ultra Gaming, 12G-P5-3967-KR, 12GB GDDR6X, iCX3 Technology, ARGB LED, Metal Backplate</td>
+      <td>1377</td>
+      <td><a href="https://www.newegg.com/evga-geforce-rtx-3080-ti-12g-p5-3967-kr/p/1FT-001K-00F85" target="_blank">https://www.newegg.com/evga-geforce-rtx-3080-ti-12g-p5-3967-kr/p/1FT-001K-00F85</a></td>
+    </tr>
+    <tr>
+      <td>MSI Geforce RTX 3080 Ti SUPRIM X 12G NVIDIA 12GB GDDR6X Graphic Card</td>
+      <td>1380</td>
+      <td><a href="https://www.newegg.com/p/1FT-0009-00919" target="_blank">https://www.newegg.com/p/1FT-0009-00919</a></td>
+    </tr>
+    <tr>
+      <td>GIGABYTE Gaming GeForce RTX 3080 Ti 12GB 384-Bit GDDR6X PCI Express 4.0 x16 ATX Video Card, 3X WINDFORCE Fans, GV-N308TGAMING OC-12GD Graphics Card</td>
+      <td>1380</td>
+      <td><a href="https://www.newegg.com/gigabyte-geforce-rtx-3080-ti-gv-n308tgaming-oc-12gd/p/1FT-000A-002A6" target="_blank">https://www.newegg.com/gigabyte-geforce-rtx-3080-ti-gv-n308tgaming-oc-12gd/p/1FT-000A-002A6</a></td>
+    </tr>
+    <tr>
+      <td>EVGA FTW3 ULTRA GeForce RTX 3080 12GB GDDR6X PCI Express 4.0 ATX Video Card, LHR 12G-P5-4877-KL</td>
+      <td>1389</td>
+      <td><a href="https://www.newegg.com/evga-geforce-rtx-3080-12g-p5-4877-kl/p/N82E16814487553" target="_blank">https://www.newegg.com/evga-geforce-rtx-3080-12g-p5-4877-kl/p/N82E16814487553</a></td>
+    </tr>
+    <tr>
+      <td>GIGABYTE GeForce RTX 3080 Ti Gaming OC 12G Graphics Card, 3X WINDFORCE Fans, 12GB 384-Bit GDDR6X,</td>
+      <td>1397</td>
+      <td><a href="https://www.newegg.com/p/1FT-000A-003J7" target="_blank">https://www.newegg.com/p/1FT-000A-003J7</a></td>
+    </tr>
+    <tr>
+      <td>MSI Gaming GeForce RTX 3080 10GB Video Card RTX 3080 GAMING TRIO PLUS 10G LHR</td>
+      <td>1399</td>
+      <td><a href="https://www.newegg.com/msi-gaming-trio-plus/p/1FT-0009-008U4" target="_blank">https://www.newegg.com/msi-gaming-trio-plus/p/1FT-0009-008U4</a></td>
+    </tr>
+    <tr>
+      <td>ASUS TUF Gaming A17 (2023) Gaming Laptop, 17.3" FHD 144Hz Display, GeForce RTX 4070, AMD Ryzen 9 7940HS, 16GB DDR5, 1TB PCIe 4.0 SSD, Wi-Fi 6, Windows 11, FA707XI-NS94</td>
+      <td>1399</td>
+      <td><a href="https://www.newegg.com/mecha-gray-asus-tuf-gaming-f17-fa707xi-ns94/p/N82E16834236430" target="_blank">https://www.newegg.com/mecha-gray-asus-tuf-gaming-f17-fa707xi-ns94/p/N82E16834236430</a></td>
+    </tr>
+    <tr>
+      <td>ASUS TUF Gaming A17 (2023) Gaming Laptop, 17.3" FHD 144Hz Display, GeForce RTX 4070, AMD Ryzen 9 7940HS, 16GB DDR5, 1TB PCIe 4.0 SSD, Wi-Fi 6, Windows 11, FA707XI-NS94</td>
+      <td>1399</td>
+      <td><a href="https://www.newegg.com/mecha-gray-asus-tuf-gaming-f17-fa707xi-ns94/p/N82E16834236430" target="_blank">https://www.newegg.com/mecha-gray-asus-tuf-gaming-f17-fa707xi-ns94/p/N82E16834236430</a></td>
+    </tr>
+    <tr>
+      <td>MSI Ventus GeForce RTX 3080 12GB GDDR6X PCI Express 4.0 Video Card RTX 3080 VENTUS 3X PLUS 12G OC LHR</td>
+      <td>1410</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-ventus-3x-plus-12g-oc-lhr/p/N82E16814137712" target="_blank">https://www.newegg.com/msi-geforce-rtx-3080-rtx-3080-ventus-3x-plus-12g-oc-lhr/p/N82E16814137712</a></td>
+    </tr>
+    <tr>
+      <td>ASUS ROG STRIX GeForce RTX 3080 Ti 12GB GDDR6X PCI Express 4.0 x16 Video Card ROG-STRIX-LC-RTX3080TI-O12G-GAMING</td>
+      <td>1449</td>
+      <td><a href="https://www.newegg.com/asus-geforce-rtx-3080-ti-rog-strix-lc-rtx3080ti-o12g-gaming/p/N82E16814126517" target="_blank">https://www.newegg.com/asus-geforce-rtx-3080-ti-rog-strix-lc-rtx3080ti-o12g-gaming/p/N82E16814126517</a></td>
+    </tr>
+    <tr>
+      <td>GIGABYTE AORUS GeForce RTX 3080 XTREME WATERFORCE WB 10G (rev. 2.0) Graphics Card, WATERFORCE Water Block Cooling System, 10GB 320-bit GDDR6X, GV-N3080AORUSX WB-10GD Rev2.0 Video Card (LHR)</td>
+      <td>1499</td>
+      <td><a href="https://www.newegg.com/gigabyte-geforce-rtx-3080-gv-n3080aorusx-wb-10gd-rev2-0/p/N82E16814932477" target="_blank">https://www.newegg.com/gigabyte-geforce-rtx-3080-gv-n3080aorusx-wb-10gd-rev2-0/p/N82E16814932477</a></td>
+    </tr>
+    <tr>
+      <td>NVIDIA GeForce RTX 3080 Ti 12GB GDDR6X PCI Express 4.0 Video Card GEFORCE RTX 3080 Ti FE</td>
+      <td>1511</td>
+      <td><a href="https://www.newegg.com/nvidia-geforce-rtx-3080-ti-fe/p/N82E16814132094" target="_blank">https://www.newegg.com/nvidia-geforce-rtx-3080-ti-fe/p/N82E16814132094</a></td>
+    </tr>
+    <tr>
+      <td>NVIDIA GeForce RTX 3080 Ti Founders Edition 12GB GDDR6X</td>
+      <td>1530</td>
+      <td><a href="https://www.newegg.com/nvidia-900-1g133-2518-000/p/1FT-0004-006T6" target="_blank">https://www.newegg.com/nvidia-900-1g133-2518-000/p/1FT-0004-006T6</a></td>
+    </tr>
+    <tr>
+      <td>NVIDIA GeForce RTX 3080 Ti Founders Edition 12GB GDDR6 3080 TI FE Video Graphic Card GPU</td>
+      <td>1530</td>
+      <td><a href="https://www.newegg.com/nvidia-geforce-rtx-3080-ti/p/1FT-0004-007S0" target="_blank">https://www.newegg.com/nvidia-geforce-rtx-3080-ti/p/1FT-0004-007S0</a></td>
+    </tr>
+    <tr>
+      <td>NVIDIA GeForce RTX 3080 Ti Founders Edition 12GB GDDR6X</td>
+      <td>1530</td>
+      <td><a href="https://www.newegg.com/p/1FT-0004-006W2" target="_blank">https://www.newegg.com/p/1FT-0004-006W2</a></td>
+    </tr>
+    <tr>
+      <td>EVGA GeForce RTX 3080 Ti FTW3 ULTRA HYBRID GAMING, 12G-P5-3968-KR, 12GB GDDR6X, iCX3 Technology, ARGB LED, Metal Backplate</td>
+      <td>1540</td>
+      <td><a href="https://www.newegg.com/p/1FT-001K-00F28" target="_blank">https://www.newegg.com/p/1FT-001K-00F28</a></td>
+    </tr>
+    <tr>
+      <td>ASUS ROG Strix NVIDIA GeForce RTX 3080 OC EVA EDITION Gaming Graphics Card (PCIe 4.0, 12GB GDDR6X, HDMI 2.1, DisplayPort 1.4a, Axial-tech Fan Design, 2.9-slot, Super Alloy Power II, GPU Tweak), LHR</td>
+      <td>1599</td>
+      <td><a href="https://www.newegg.com/asus-geforce-rtx-3080-rog-strix-rtx3080-o12g-eva/p/N82E16814126580" target="_blank">https://www.newegg.com/asus-geforce-rtx-3080-rog-strix-rtx3080-o12g-eva/p/N82E16814126580</a></td>
+    </tr>
+    <tr>
+      <td>MSI Laptop Intel Core i9 13th Gen 13900H (2.60GHz) 16GB Memory 1 TB PCIe SSD NVIDIA GeForce RTX 4050 Laptop GPU 16.0" Windows 11 Home 64-bit Creator M16 B13VE-1251US</td>
+      <td>1599</td>
+      <td><a href="https://www.newegg.com/black-msi-creator-m16-b13ve-1251us-content-creation-work-business/p/N82E16834156527" target="_blank">https://www.newegg.com/black-msi-creator-m16-b13ve-1251us-content-creation-work-business/p/N82E16834156527</a></td>
+    </tr>
+    <tr>
+      <td>MSI Laptop Intel Core i9 13th Gen 13900H (2.60GHz) 16GB Memory 1 TB PCIe SSD NVIDIA GeForce RTX 4050 Laptop GPU 16.0" Windows 11 Home 64-bit Creator M16 B13VE-1251US</td>
+      <td>1599</td>
+      <td><a href="https://www.newegg.com/black-msi-creator-m16-b13ve-1251us-content-creation-work-business/p/N82E16834156527" target="_blank">https://www.newegg.com/black-msi-creator-m16-b13ve-1251us-content-creation-work-business/p/N82E16834156527</a></td>
+    </tr>
+    <tr>
+      <td>GIGABYTE Gaming GeForce RTX 4090 24GB GDDR6X PCI Express 4.0 x16 ATX Video Card GV-N4090GAMING OC-24GD</td>
+      <td>1623</td>
+      <td><a href="https://www.newegg.com/gigabyte-geforce-rtx-4090-gv-n4090gaming-oc-24gd/p/N82E16814932550" target="_blank">https://www.newegg.com/gigabyte-geforce-rtx-4090-gv-n4090gaming-oc-24gd/p/N82E16814932550</a></td>
+    </tr>
+    <tr>
+      <td>GIGABYTE Gaming GeForce RTX 4090 24GB GDDR6X PCI Express 4.0 x16 ATX Video Card GV-N4090GAMING OC-24GD</td>
+      <td>1623</td>
+      <td><a href="https://www.newegg.com/gigabyte-geforce-rtx-4090-gv-n4090gaming-oc-24gd/p/N82E16814932550" target="_blank">https://www.newegg.com/gigabyte-geforce-rtx-4090-gv-n4090gaming-oc-24gd/p/N82E16814932550</a></td>
+    </tr>
+    <tr>
+      <td>ASUS ROG STRIX GeForce RTX 3080 O10G GAMING OC D6X 10GB White</td>
+      <td>1695</td>
+      <td><a href="https://www.newegg.com/p/1FT-000Y-00681" target="_blank">https://www.newegg.com/p/1FT-000Y-00681</a></td>
+    </tr>
+    <tr>
+      <td>MSI Gaming GeForce RTX 4090 24GB GDDR6X PCI Express 4.0 Video Card RTX 4090 GAMING X TRIO 24G</td>
+      <td>1699</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-gaming-x-trio-24g/p/N82E16814137761" target="_blank">https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-gaming-x-trio-24g/p/N82E16814137761</a></td>
+    </tr>
+    <tr>
+      <td>MSI Gaming GeForce RTX 4090 24GB GDDR6X PCI Express 4.0 Video Card RTX 4090 GAMING X TRIO 24G</td>
+      <td>1699</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-gaming-x-trio-24g/p/N82E16814137761" target="_blank">https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-gaming-x-trio-24g/p/N82E16814137761</a></td>
+    </tr>
+    <tr>
+      <td>MSI Gaming GeForce RTX 4090 24GB GDDR6X PCI Express 4.0 Video Card RTX 4090 GAMING X TRIO 24G</td>
+      <td>1699</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-gaming-x-trio-24g/p/N82E16814137761" target="_blank">https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-gaming-x-trio-24g/p/N82E16814137761</a></td>
+    </tr>
+    <tr>
+      <td>MSI Gaming GeForce RTX 4090 24GB GDDR6X PCI Express 4.0 Video Card RTX 4090 GAMING X TRIO 24G</td>
+      <td>1699</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-gaming-x-trio-24g/p/N82E16814137761" target="_blank">https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-gaming-x-trio-24g/p/N82E16814137761</a></td>
+    </tr>
+    <tr>
+      <td>MSI Gaming GeForce RTX 4090 24GB GDDR6X PCI Express 4.0 Video Card RTX 4090 GAMING X TRIO 24G</td>
+      <td>1699</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-gaming-x-trio-24g/p/N82E16814137761" target="_blank">https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-gaming-x-trio-24g/p/N82E16814137761</a></td>
+    </tr>
+    <tr>
+      <td>MSI Gaming GeForce RTX 4090 24GB GDDR6X PCI Express 4.0 Video Card RTX 4090 GAMING X TRIO 24G</td>
+      <td>1699</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-gaming-x-trio-24g/p/N82E16814137761" target="_blank">https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-gaming-x-trio-24g/p/N82E16814137761</a></td>
+    </tr>
+    <tr>
+      <td>MSI Suprim GeForce RTX 4090 24GB GDDR6X PCI Express 4.0 Video Card RTX 4090 SUPRIM X 24G</td>
+      <td>1749</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-suprim-x-24g/p/N82E16814137760" target="_blank">https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-suprim-x-24g/p/N82E16814137760</a></td>
+    </tr>
+    <tr>
+      <td>MSI Suprim GeForce RTX 4090 24GB GDDR6X PCI Express 4.0 Video Card RTX 4090 SUPRIM LIQUID X 24G</td>
+      <td>1749</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-suprim-liquid-x-24g/p/N82E16814137759" target="_blank">https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-suprim-liquid-x-24g/p/N82E16814137759</a></td>
+    </tr>
+    <tr>
+      <td>MSI Suprim GeForce RTX 4090 24GB GDDR6X PCI Express 4.0 Video Card RTX 4090 SUPRIM X 24G</td>
+      <td>1749</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-suprim-x-24g/p/N82E16814137760" target="_blank">https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-suprim-x-24g/p/N82E16814137760</a></td>
+    </tr>
+    <tr>
+      <td>MSI Suprim GeForce RTX 4090 24GB GDDR6X PCI Express 4.0 Video Card RTX 4090 SUPRIM LIQUID X 24G</td>
+      <td>1749</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-suprim-liquid-x-24g/p/N82E16814137759" target="_blank">https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-suprim-liquid-x-24g/p/N82E16814137759</a></td>
+    </tr>
+    <tr>
+      <td>MSI Suprim GeForce RTX 4090 24GB GDDR6X PCI Express 4.0 Video Card RTX 4090 SUPRIM X 24G</td>
+      <td>1749</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-suprim-x-24g/p/N82E16814137760" target="_blank">https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-suprim-x-24g/p/N82E16814137760</a></td>
+    </tr>
+    <tr>
+      <td>MSI Suprim GeForce RTX 4090 24GB GDDR6X PCI Express 4.0 Video Card RTX 4090 SUPRIM LIQUID X 24G</td>
+      <td>1749</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-suprim-liquid-x-24g/p/N82E16814137759" target="_blank">https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-suprim-liquid-x-24g/p/N82E16814137759</a></td>
+    </tr>
+    <tr>
+      <td>MSI Suprim GeForce RTX 4090 24GB GDDR6X PCI Express 4.0 Video Card RTX 4090 SUPRIM X 24G</td>
+      <td>1749</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-suprim-x-24g/p/N82E16814137760" target="_blank">https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-suprim-x-24g/p/N82E16814137760</a></td>
+    </tr>
+    <tr>
+      <td>MSI Suprim GeForce RTX 4090 24GB GDDR6X PCI Express 4.0 Video Card RTX 4090 SUPRIM LIQUID X 24G</td>
+      <td>1749</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-suprim-liquid-x-24g/p/N82E16814137759" target="_blank">https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-suprim-liquid-x-24g/p/N82E16814137759</a></td>
+    </tr>
+    <tr>
+      <td>MSI Suprim GeForce RTX 4090 24GB GDDR6X PCI Express 4.0 Video Card RTX 4090 SUPRIM X 24G</td>
+      <td>1749</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-suprim-x-24g/p/N82E16814137760" target="_blank">https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-suprim-x-24g/p/N82E16814137760</a></td>
+    </tr>
+    <tr>
+      <td>MSI Suprim GeForce RTX 4090 24GB GDDR6X PCI Express 4.0 Video Card RTX 4090 SUPRIM X 24G</td>
+      <td>1749</td>
+      <td><a href="https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-suprim-x-24g/p/N82E16814137760" target="_blank">https://www.newegg.com/msi-geforce-rtx-4090-rtx-4090-suprim-x-24g/p/N82E16814137760</a></td>
+    </tr>
+    <tr>
+      <td>MSI Laptop Intel Core i9 13th Gen 13900H (2.60GHz) 64GB Memory 2 TB PCIe SSD NVIDIA GeForce RTX 4050 Laptop GPU 16.0" Windows 11 Pro 64-bit Creator M16 B13VE-1250US</td>
+      <td>2029</td>
+      <td><a href="https://www.newegg.com/black-msi-creator-m16-b13ve-1250us-content-creation-work-business/p/N82E16834156526" target="_blank">https://www.newegg.com/black-msi-creator-m16-b13ve-1250us-content-creation-work-business/p/N82E16834156526</a></td>
+    </tr>
+    <tr>
+      <td>MSI Laptop Intel Core i9 13th Gen 13900H (2.60GHz) 64GB Memory 2 TB PCIe SSD NVIDIA GeForce RTX 4050 Laptop GPU 16.0" Windows 11 Pro 64-bit Creator M16 B13VE-1250US</td>
+      <td>2029</td>
+      <td><a href="https://www.newegg.com/black-msi-creator-m16-b13ve-1250us-content-creation-work-business/p/N82E16834156526" target="_blank">https://www.newegg.com/black-msi-creator-m16-b13ve-1250us-content-creation-work-business/p/N82E16834156526</a></td>
+    </tr>
+    <tr>
+      <td>MSI Laptop Intel Core i9 13th Gen 13900H (2.60GHz) 64GB Memory 4 TB PCIe SSD NVIDIA GeForce RTX 4060 Laptop GPU 16.0" Windows 11 Pro 64-bit Creator M16 B13VF-1241US</td>
+      <td>2349</td>
+      <td><a href="https://www.newegg.com/black-msi-creator-m16-b13vf-1241us-content-creation-work-business/p/N82E16834156525" target="_blank">https://www.newegg.com/black-msi-creator-m16-b13vf-1241us-content-creation-work-business/p/N82E16834156525</a></td>
+    </tr>
+    <tr>
+      <td>MSI Laptop Intel Core i9 13th Gen 13900H (2.60GHz) 64GB Memory 4 TB PCIe SSD NVIDIA GeForce RTX 4060 Laptop GPU 16.0" Windows 11 Pro 64-bit Creator M16 B13VF-1241US</td>
+      <td>2349</td>
+      <td><a href="https://www.newegg.com/black-msi-creator-m16-b13vf-1241us-content-creation-work-business/p/N82E16834156525" target="_blank">https://www.newegg.com/black-msi-creator-m16-b13vf-1241us-content-creation-work-business/p/N82E16834156525</a></td>
+    </tr>
+  </tbody>
+</table>
+<p>192 rows × 3 columns</p></div></body><br><h5 align = center>{{dataToRender}}</h5></form>{% endblock %}

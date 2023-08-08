@@ -1,0 +1,26 @@
+{% extends "base_home.html" %} {% block title %}Home{% endblock %} {% block content
+  %}
+  <form method="POST">
+    <h10> <br> </h10>
+    {% if user.is_authenticated %}
+        <h3 align = "center">Search for a tech product to find the best deals!</h3>
+    {% else %}
+        <h3 align = "center">Search for a tech product <i>or</i> Login to be notified when your favorite product's price changes!</h3>
+    {% endif %}
+    <br>
+    Search tip: being more specific in your search will result in a faster response time and more selective results!
+    <div class="form-group input-group">
+        <label for="product" class="sr-only"></label>
+        <input
+            type="text"
+            class="form-control"
+            id="product"
+            name="product"
+            placeholder="Enter product name:"
+        />
+        <div class="input-group-append">
+            <button type="submit" class="btn btn-primary">Search</button>
+        </div>
+    </div>
+  </form>
+{% endblock %}

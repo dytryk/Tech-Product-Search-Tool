@@ -1,0 +1,44 @@
+{% extends "base_home.html" %} {% block title %}Home{% endblock %} {% block content
+    %}
+    <form method="POST">
+      <h10> <br> </h10>
+      <h3 align = "center">Search for a tech product to find the best deals!</h3>
+      <br>
+      Search tip: being more specific in your search will result in a faster response time and more selective results!
+      <div class="form-group input-group">
+          <label for="product" class="sr-only"></label>
+          <input
+              type="text"
+              class="form-control"
+              id="product"
+              name="product"
+              placeholder="Enter product name:"
+          />
+          <div class="input-group-append">
+              <button type="submit" class="btn btn-primary">Search</button>
+          </div>
+      </div>
+    </form>
+      <head>
+      <title>Results:</title>
+      <style text-align: left>
+          .scroll-box {
+              border: 1px solid #ccc;
+              width:auto;
+              max-height: 680px;
+              overflow-y: scroll;
+              padding: 10px;
+          }
+    
+          a {
+              color:#0004ff;
+              text-decoration: none;
+          }
+    
+          a:hover {
+              text-decoration: underline;
+          }
+        </style>
+      </head>
+    <body>
+      <div class="scroll-box">
