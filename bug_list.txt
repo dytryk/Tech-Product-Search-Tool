@@ -1,0 +1,2 @@
+1. instead of sending out one email every day (or hour, or whatever), it sends 2 email one right after the other.
+  status: open
