@@ -1,2 +1,2 @@
-zoovcuqgewshuwla
-techproductsearch@gmail.com
+<replace this line with a google login password for signing into your gmail throguh python>
+<replace this line with a gmail address>
