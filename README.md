@@ -20,6 +20,7 @@ pip install -r requirements.txt
 
 ## Running the app
 ##### In order to user the email notification system, you have to replace the text in the 'email_creds.txt' file with your own credentials.
+##### If you want to run this without using the notifications, comment out lines 46 and 47 in 'main.py'.
 ##### The first few minutes of this youtube video explain this better: 
 ```
 https://www.youtube.com/watch?v=zxFXnLEmnb4
